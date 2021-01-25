@@ -1,2 +1,0 @@
-# jgamesl.github.io
-Portfolio
