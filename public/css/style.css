@@ -582,6 +582,7 @@ body.offcanvas {
   background-clip: padding-box; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
+  color: blue;
   content: '';
   display: block;
   position: absolute;

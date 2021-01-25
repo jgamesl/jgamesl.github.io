@@ -21,30 +21,58 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Internship at Juniper <span>2019-present</span></h2>
-                        <p>I recently have joined the Juniper Networs as a Software Developer-Intern in the DevOps team. My major part of the work has been into the field of creating sustainable and flexible CI/CD (Continuous Integration & Continuous Development) pipelines which enables developers at Juniper to do rapid development. I am also exploring the role of container technology like Docker and container-orchrastation technologies like K8s, Swarm to create industry standard production environments.</p>
+                        <h2>Moddtech <span>2019-present</span></h2>
+                        <p>I worked in an own company app (Lend Me It), it is an "uber-like" app for renting, buying and selling products or services. It has been launched in the US for bothe ios and Android.
+                          I started working on the first app version with cordova, after a year in the company we started working on v2 with Flutter. I also worked with SQL and C# for the backend.
+                        </p>
                       </div>
                     </div>
                   </article>
+
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
+                      <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Undergraduation at DAIICT<span>2015-2019</span></h2>
-                        <p>I am pursuing my under-graduation studies with major in I.C.T.(Information & Communication Technology). I have taken courses like DSA, OOPs, Computer Networks, IOT, Web-Data Management over the years and have better understanding of these subjects.I have also been part of S.B.G.(Student Body Govenance) scince my first year of college.</p>
+                        <h2>Quantumbit <span>2017-2019</span></h2>
+                        <p>I worked with Ionic on a new company IP (Dr. Chapp). It was an "uber-like" app for medical services. The app is not available in the stores anymore.
+                           I also worked in other proyects with laravel.  </p>
                       </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-3">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Nezter Landing Solutions <span>2016-2017</span></h2>
+                        <p>I worked as a and App Developer. Mainly on "Natsberry" an app designed for creating cooking menus among other functionalities. I worked using cordova for hybrid applications, I managed the database through SQL and the backend with C#.</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Optics Investigation Center ( CIO ) <span>Summer 2015</span></h2>
+                        <p>I made an internship at CIO, in the city of León, Guanajuato. There I worked as a lab assistant technicican with the M.C. Enrique Noe Arias. 
+                            There I helped working on the design of a lux meter device for a textile factory using Code Composer Studio and Labview. </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Primary and Higher Education <span>2003-2015</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
+                        <h2>Electronic Engineer in Universidad de Sonora <span>2012-2015</span></h2>
+                        <p> Finished college with an spetial dedication in digital control, working with Microcontroller programming. I had an increasing interest for programming due to these kind of subjects. Studied coding
+                          on my own while also going through college</p> 
                       </div>
                     </div>
                   </article>
