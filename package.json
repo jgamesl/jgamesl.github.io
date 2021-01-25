@@ -12,7 +12,7 @@
     "web-vitals": "^0.2.4",
     "gh-pages": "^2.0.1"
   },
-  "homepage": "http://jgamesl.github.io",
+  "homepage": "http://jgamesl.github.io/me",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
