@@ -33,15 +33,6 @@ export default class Sidebar extends Component {
                 {/* <li><a href="https://medium.com/@dhruv.barochia34788" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a></li> */}
               </ul>
             </nav>
-            {/* <div className="colorlib-footer">
-              <p><small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i><br></br>
-                  Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration 
-              </small></p>
-              <p><small>
-                Something coming soon !!
-              </small></p>
-            </div> */}
           </aside>
         </div>
       </div>
