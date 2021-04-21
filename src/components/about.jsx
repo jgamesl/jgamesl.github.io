@@ -48,8 +48,8 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3>Data Structures & Backend</h3>
+                    <p>I have worked with the design and maintenance of databases, I have used SQL, MySQL and PostgreSql</p>
                 </div>
                 </div>
             </div>
@@ -59,8 +59,8 @@ export default class About extends Component {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <h3>App development</h3>
+                    <p>I have experience working with mobile hybrid apps with technologies such Cordova, Ionic and Flutter</p>
                 </div>
                 </div>
             </div>
