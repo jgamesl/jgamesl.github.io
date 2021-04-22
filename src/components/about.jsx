@@ -13,7 +13,8 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>A full stack web and mobile developer from Hermosillo, Sonora)</p>
+                    <p>A full stack web and mobile developer from Hermosillo, Sonora</p>
+                    <p>I have been working as a software developer since 2016. </p>
                     <p>Electronic engineer from the Universidad de Sonora. I love playing music, workout and play videogames </p>
                     </div>
                 </div>
@@ -27,22 +28,22 @@ export default class About extends Component {
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                 <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <h2 className="colorlib-heading">Here are some of my expertise and skills</h2>
             </div>
             </div>
             <div className="row row-pt-md">
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-3 text-center animate-box">
                 <div className="services color-1">
                 <span className="icon">
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
                     <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <p>I have experience building websites using JavaScript, Laravel, HTML,CSS</p>
                 </div>
                 </div>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-3 text-center animate-box">
                 <div className="services color-3">
                 <span className="icon">
                     <i className="icon-phone3" />
@@ -53,7 +54,7 @@ export default class About extends Component {
                 </div>
                 </div>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-3 text-center animate-box">
                 <div className="services color-5">
                 <span className="icon">
                     <i className="icon-data" />
@@ -61,6 +62,30 @@ export default class About extends Component {
                 <div className="desc">
                     <h3>App development</h3>
                     <p>I have experience working with mobile hybrid apps with technologies such Cordova, Ionic and Flutter</p>
+                </div>
+                </div>
+            </div>
+            <div className="col-md-3 text-center animate-box">
+                <div className="services color-5">
+                <span className="icon">
+                    <i className="icon-data" />
+                </span>
+                <div className="desc">
+                    <h3>Languages</h3>
+                    <div class="row">
+
+                        <div className="col-xs-6 text-left">
+                            <p>Spanish (MotherThong)</p>
+                            <p>German (B2 ÖSD)</p>
+
+                        </div>
+                        <div className="col-xs-6 text-left">
+                            <p>English (Advanced)</p>
+                            <p>French (ÖSD B1)</p>
+
+                        </div>
+                    </div>
+       
                 </div>
                 </div>
             </div>
