@@ -4,6 +4,7 @@
 	"private": true,
 	"homepage": "https://jgamesl.github.io/me",
 	"dependencies": {
+		"@material-ui/core": "^4.11.3",
 		"gh-pages": "^2.2.0",
 		"react": "^16.8.3",
 		"react-dom": "^16.8.3",

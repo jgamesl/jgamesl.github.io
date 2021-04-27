@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LanguageSelector from '../components/LanguageSelector';
+import LanguageSelectorText from '../components/LanguageSelectorText';
 import { Text  } from '../containers/Language';
 
 export default class Sidebar extends Component {
@@ -32,7 +33,14 @@ export default class Sidebar extends Component {
                 <li><a href="https://www.instagram.com/j.gamezl/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
                 <li><a href="https://www.linkedin.com/in/jgamezl/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/jgamesl" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
-                <li><LanguageSelector /></li>
+                {/* <li>
+                  <a href="https://github.com/jgamesl" target="_blank" rel="noopener noreferrer">EN  </a>
+                  <a href="https://github.com/jgamesl" target="_blank" rel="noopener noreferrer">ES  </a>
+                  <a href="https://github.com/jgamesl" target="_blank" rel="noopener noreferrer">DE</a>
+                </li> */}
+                <li><LanguageSelectorText/></li>
+
+                {/* <li><LanguageSelector /></li> */}
                 {/* <li><a href="https://medium.com/@dhruv.barochia34788" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a></li> */}
               </ul>
               

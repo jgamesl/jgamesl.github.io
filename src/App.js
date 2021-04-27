@@ -42,7 +42,7 @@ class App extends Component {
         <div id="colorlib-page">
           <div id="container-wrap">
             <Sidebar></Sidebar>
-            <LanguageSelector />
+            {/* <LanguageSelector /> */}
           <div id="colorlib-main">
             {/* <Translate></Translate> */}
             <Introduction></Introduction>
