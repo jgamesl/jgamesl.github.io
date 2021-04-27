@@ -1,21 +1,23 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Text  } from '../containers/Language';
 
 export default class About extends Component {
   render() {
     return (
+        
       <div>
         <section className="colorlib-about" data-section="about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-12">
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                <div className="col-md-12">
+                <div className="col-md-12"> 
                     <div className="about-desc">
-                    <span className="heading-meta">About Me</span>
-                    <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>A full stack web and mobile developer from Hermosillo, Sonora</p>
-                    <p>I have been working as a software developer since 2016. </p>
-                    <p>Electronic engineer from the Universidad de Sonora. I love playing music, workout and play videogames </p>
+                    <span className="heading-meta"><Text tid="aboutMeTitle" /></span>
+                    <h2 className="colorlib-heading"><Text tid="aboutMeWhoAmI" /></h2>
+                    <p><Text tid="aboutMePhra1" /></p>
+                    <p><Text tid="aboutMePhra2" /></p>
+                    <p><Text tid="aboutMePhra3" /> </p>
                     </div>
                 </div>
                 </div>
@@ -27,8 +29,8 @@ export default class About extends Component {
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise and skills</h2>
+                <span className="heading-meta"><Text tid="aboutMeWhat" /></span>
+                <h2 className="colorlib-heading"><Text tid="aboutMeExpert" /></h2>
             </div>
             </div>
             <div className="row row-pt-md">
@@ -38,8 +40,8 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites using JavaScript, Laravel, HTML,CSS</p>
+                    <h3><Text tid="aboutMeWebDevTitle" /> </h3>
+                    <p><Text tid="aboutMeExpertise" /></p>
                 </div>
                 </div>
             </div>
@@ -49,8 +51,8 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Backend</h3>
-                    <p>I have worked with the design and maintenance of databases, I have used SQL, MySQL and PostgreSql</p>
+                    <h3><Text tid="aboutMeWebDataStructuresTitle" /></h3>
+                    <p><Text tid="aboutMeWebDataStructuresTitleP" /></p>
                 </div>
                 </div>
             </div>
@@ -60,8 +62,8 @@ export default class About extends Component {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>App development</h3>
-                    <p>I have experience working with mobile hybrid apps with technologies such Cordova, Ionic and Flutter</p>
+                    <h3><Text tid="aboutMeAppDevTitle" /></h3>
+                    <p><Text tid="aboutMeAppDevTitleP" /></p>
                 </div>
                 </div>
             </div>
@@ -71,17 +73,17 @@ export default class About extends Component {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Languages</h3>
-                    <div class="row">
+                    <h3><Text tid="aboutMeAppLangTitle" /></h3>
+                    <div className="row">
 
                         <div className="col-xs-6 text-left">
-                            <p>Spanish (MotherThong)</p>
-                            <p>German (B2 ÖSD)</p>
+                            <p><Text tid="aboutMeSpanish" /></p>
+                            <p><Text tid="aboutMeGerman" /></p>
 
                         </div>
                         <div className="col-xs-6 text-left">
-                            <p>English (Advanced)</p>
-                            <p>French (ÖSD B1)</p>
+                            <p><Text tid="aboutMeEnglish" /></p>
+                            <p><Text tid="aboutMeFrench" /></p>
 
                         </div>
                     </div>

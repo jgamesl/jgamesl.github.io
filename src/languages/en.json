@@ -1,0 +1,52 @@
+{
+    "exploreHeader": "Explore",
+    "welcomeDescription": "This is a demo app for multi-language website with React Context API",
+    "clickMe": "Click Me We",
+    "buttonClicked": "You clicked to button!",
+    "introductionHi": "Hi, I'm Jorge",
+
+    "aboutMeTitle": "about Me",
+    "aboutMeWhoAmI": "Who Am I?",
+    "aboutMePhra1": "A full stack web and mobile developer from Hermosillo, Sonora",
+    "aboutMePhra2": "I have been working as a software developer since 2016.",
+    "aboutMePhra3": "Electronic engineer from the Universidad de Sonora. I love playing music, workout and play videogames.",
+    "aboutMeWhat": "What I do?",
+    "aboutMeExpert": "Here are some of my expertise and skills",
+    "aboutMeWebDevTitle": "Web Development",
+    "aboutMeExpertise": "I have experience building websites using JavaScript, Laravel, HTML,CSS",
+    "aboutMeWebDataStructuresTitle": "Data Structures & Backend",
+    "aboutMeWebDataStructuresTitleP": "I have worked with the design and maintenance of databases, I have used SQL, MySQL and PostgreSql",
+    "aboutMeAppDevTitle": "App Development",
+    "aboutMeAppDevTitleP": "I have experience working with mobile hybrid apps, using technologies such Cordova, Ionic and Flutter",
+    "aboutMeAppLangTitle": "Languages",
+    "aboutMeSpanish": "Spanish (MotherThong)",
+    "aboutMeEnglish": "English (Advanced)",
+    "aboutMeFrench": "French (ÖSD B1)",
+    "aboutMeGerman": "German (B2 ÖSD)",
+
+    "timelineHighlights": "Highlights",
+    "timelineTitle": "Timeline",
+    "moddTech": "Moddtech",
+    "moddTechYears": "2019-present",
+    "moddtechDid" :"I worked in an own company app (Lend Me It), it is an 'uber-like' app for renting, buying and selling products or services. It has been launched in the US for both ios and Android. I started working on the first app version with cordova, after a year in the company we started working on v2 with Flutter. I also worked with SQL and C# for the backend.",
+    "qbit": "Quantumbit",
+    "qbitYears": "2017-2019",
+    "qbithDid" :"I worked with Ionic on a new company IP (Dr. Chapp). It was an 'uber-like' app for medical services. The app is not available in the stores anymore. I also worked in other proyects with laravel.",
+    "cio": "Optics Investigation Center ( CIO )",
+    "cioYears": "Summer 2015",
+    "cioDid" :"I made an internship at CIO, in the city of León, Guanajuato. There I worked as a lab assistant technicican with the M.C. Enrique Noe Arias. There I helped working on the design of a lux meter device for a textile factory using Code Composer Studio and Labview.",
+    "uni": "Electronic Engineering in Universidad de Sonora",
+    "uniYears": "2011-2015",
+    "uniDid" :"Finished college with an special focus in digital control, working with Microcontroller programming. I had an increasing interest for programming due to these kind of subjects. Studied coding on my own while also going through college.",
+    "nezter": "Nezter Landing Solutions ",
+    "nezterYears": "2016-2017",
+    "nezterDid" :"Here I worked mainly with cordova in a cooking recipes App, Natsberry, both front and backend.",
+
+    
+    "viewCv": "View CV",
+    "introductionLabel": "Introduction",
+    "aboutLabel": "About Me",
+    "timelineLabel": "Timeline"
+
+    
+  }

@@ -1,8 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Introduction extends Component {
-  render() {
+import { Text  } from '../containers/Language';
+
+export default function Introduction()  {
+  
+ 
+
     return (
+
       <div>
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
@@ -15,8 +20,8 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc fomew">
-                          <h1 style={{color: "white"}}>Hi! <br />I'm Jorge</h1>
-                          <p ><a style={{color: "white",borderColor: "white"}} className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1er6uSsW79fn8L3iQFLl_j24sF9tPXG6_/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
+                          <h1 style={{color: "white"}}><Text tid="introductionHi" /></h1>
+                          <p ><a style={{color: "white",borderColor: "white"}} className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1er6uSsW79fn8L3iQFLl_j24sF9tPXG6_/view?usp=sharing" target="_blank" rel="noopener noreferrer"><Text tid="viewCv" /><i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
@@ -58,5 +63,5 @@ export default class Introduction extends Component {
         </section>
       </div>
     )
-  }
+  
 }

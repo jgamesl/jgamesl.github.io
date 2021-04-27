@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Text  } from '../containers/Language';
 
 export default class Timeline extends Component {
   render() {
@@ -8,8 +9,8 @@ export default class Timeline extends Component {
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">highlights</span>
-                <h2 className="colorlib-heading animate-box">Timeline</h2>
+                <span className="heading-meta"><Text tid="timelineHighlights" /></span>
+                <h2 className="colorlib-heading animate-box"><Text tid="timelineTitle" /></h2>
               </div>
             </div>
             <div className="row">
@@ -18,23 +19,34 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
+                        <i className="icon-device-laptop" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Moddtech <span>2019-present</span></h2>
-                        <p>I worked in an own company app (Lend Me It), it is an "uber-like" app for renting, buying and selling products or services. It has been launched in the US for bothe ios and Android. I started working on the first app version with cordova, after a year in the company we started working on v2 with Flutter. I also worked with SQL and C# for the backend.</p>
+                        <h2><Text tid="moddTech" /> <span><Text tid="moddTechYears" /></span></h2>
+                        <p><Text tid="moddtechDid" /></p>
                       </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
+                        <i className="icon-device-phone" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Quantumbit <span>2017-2019</span></h2>
-                        <p>I worked with Ionic on a new company IP (Dr. Chapp). It was an "uber-like" app for medical services. The app is not available in the stores anymore. I also worked in other proyects with laravel.</p>
+                        <h2><Text tid="qbit" /> <span><Text tid="qbitYears" /></span></h2>
+                        <p><Text tid="qbithDid" /></p>
                       </div>
+                    </div>
+                  </article>
+                  
+                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-device-tablet" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2><Text tid="nezter" /> <span><Text tid="nezterYears" /></span></h2>
+                        <p><Text tid="nezterDid" /></p>  </div> 
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
@@ -43,31 +55,18 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Optics Investigation Center ( CIO ) <span>Summer 2015</span></h2>
-                        <p>I made an internship at CIO, in the city of León, Guanajuato. There I worked as a lab assistant technicican with the M.C. Enrique Noe Arias. There I helped working on the design of a lux meter device for a textile factory using Code Composer Studio and Labview.</p> 
-                      </div>
+                        <h2><Text tid="cio" /> <span><Text tid="cioYears" /></span></h2>
+                        <p><Text tid="cioDid" /></p>  </div>
                     </div>
                   </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeIBottom">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Electronic Engineering in Universidad de Sonora <span>2011-2015</span></h2>
-                        <p>Finished college with an spetial dedication in digital control, working with Microcontroller programming. I had an increasing interest for programming due to these kind of subjects. Studied coding on my own while also going through college.</p> 
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Nezter Landing Solutions <span>2016-2017</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
-                      </div>
+                        <h2><Text tid="uni" /> <span><Text tid="uniYears" /></span></h2>
+                        <p><Text tid="uniDid" /></p>  </div> 
                     </div>
                   </article>
                 </div>

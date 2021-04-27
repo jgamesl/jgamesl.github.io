@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import LanguageSelector from '../components/LanguageSelector';
+import { Text  } from '../containers/Language';
 
 export default class Sidebar extends Component {
   render() {
@@ -15,11 +17,11 @@ export default class Sidebar extends Component {
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
-                  <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
-                  <li><a href="#about" data-nav-section="about">About</a></li>
+                  <li className="active"><a href="#home" data-nav-section="home"><Text tid="introductionLabel" /></a></li>
+                  <li><a href="#about" data-nav-section="about"><Text tid="aboutLabel" /></a></li>
                   {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
                   <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
-                  <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
+                  <li><a href="#timeline" data-nav-section="timeline"><Text tid="timelineLabel" /></a></li>
                 </ul>
               </div>
             </nav>
@@ -30,8 +32,11 @@ export default class Sidebar extends Component {
                 <li><a href="https://www.instagram.com/j.gamezl/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
                 <li><a href="https://www.linkedin.com/in/jgamezl/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/jgamesl" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                <li><LanguageSelector /></li>
                 {/* <li><a href="https://medium.com/@dhruv.barochia34788" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a></li> */}
               </ul>
+              
+            
             </nav>
           </aside>
         </div>
